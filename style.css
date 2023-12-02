@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  html,body{
+    width: 100%;
+    height: 100%;
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  p{
+    font-size: 20px;
+  }
+  .sidebar .who{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .social{
+    padding: 20px;
+  }
+  .social #fa-brands{
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+    .social li{
+        margin: 0 20px;
+        width: 10px;
+    }
+    .fa-brands{
+        font-size: 30px;
+    }
+   .fa-solid{
+     font-size: 20px;
+     padding: 10px;
+    }
+    .navbar ul{
+     list-style: none;
+    }
+    .navbar li{
+     margin: 10px 20px;
+    }
+    .view{
+     width: 100vw;
+     height: 100%;
+     z-index: -1;
+
+    }
+    .profile-img{
+    padding-bottom: 20px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.2);
+    z-index: 3;
+    }
+    .sidebar{
+        height: 100vh;
+        width: 300px;
+        background: blue;
+        position: fixed;
+        z-index: 2;
+    }
+    .navbar{
+        padding-top: 20px;
+    }
+
+.pages {
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height:500vh;
+}
+
+.page2{
+    margin: 10px;
+}
+
+.about{
+    padding: 20px;
+}
+
+.about p{
+    padding-top: 10px;
+}
+
+.huh{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    width: 100vw;
+
+}
+.huh img{
+    padding-top: 6px;
+    height: 500px;
+    width: 500px;
+}
+
+.dev{
+    margin: 0 20px;
+    padding-right: 500px;
+
+}
+
+.dev p{
+    padding-top: 10px;
+}
+
+.info{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info li{
+    list-style: square;
+    padding: 10px;
+}
+
+h5{
+    font-size: 15px;
+}
+
+.facts{
+    padding: 20px;
+}
+
+.facts h1{
+    padding-bottom: 10px;
+}
+
+.fact-images{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.fact-images .sus{
+    display: flex;
+}
+
+.fa-regular{
+    font-size: 60px;
+    padding: 10px;
+}
+
+.text-fact h1{
+    font-size: 60px;
+}
+
+.text-fact h2{
+    font-size: 20px;
+}
+
+.skills{
+    padding: 20px;
+}
+
+.skills h1{
+    padding-bottom: 10px;
+}
+
